@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e(".childnav li.page_item_has_children > a").click(function(t){e(this).parent().children(".children").first().slideToggle(300);t.preventDefault()})});

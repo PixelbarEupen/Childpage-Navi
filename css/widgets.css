@@ -1,0 +1,14 @@
+.childpagewidget {
+  /* basic dropdown function */ }
+  .childpagewidget li > ul {
+    display: none;
+    margin: 0 0 10px 10px; }
+  .childpagewidget li {
+    display: block; }
+  .childpagewidget li:last-of-type {
+    border: none; }
+  .childpagewidget .current_page_item > ul {
+    display: block; }
+  .childpagewidget .childnav li.current_page_ancestor > ul,
+  .childpagewidget .childnav li.current_page_ancestor.current_page_parent > ul {
+    display: block; }

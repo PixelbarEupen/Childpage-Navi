@@ -1,0 +1,18 @@
+.childpagewidget {
+
+	/* basic dropdown function */
+	li > ul {
+		display: none;
+		margin: 0 0 10px 10px;
+	}	
+	li {
+		display: block;
+	}
+	li:last-of-type {border: none;}
+	
+	.current_page_item > ul {display: block;}
+	.childnav li.current_page_ancestor > ul,
+	.childnav li.current_page_ancestor.current_page_parent > ul {display: block;}
+	
+	
+}
