@@ -13,7 +13,7 @@ GitHub Access Token: 6ca583973da0e33ee1a6c90c3e4920e6143369ca
 
 
 //Define Plugin Path for Widgets etc.
-define(PLUGIN_PATH,plugins_url().'/Childpage-Navi/');
+define('PIX_CHILDPAGE_PLUGIN_PATH', plugins_url('Childpage-Navi',dirname(__FILE__)));
 
 
 /**********************/
