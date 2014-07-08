@@ -22,10 +22,10 @@ define('PIX_CHILDPAGE_PLUGIN_PATH', plugins_url('Childpage-Navi',dirname(__FILE_
 
 // Set CSS und JS function
 function css(){
-	wp_register_style('widget',PLUGIN_PATH.'css/widgets.css');
+	wp_register_style('widget',PLUGIN_PATH.'/css/widgets.css');
 }
 function js(){
-	wp_register_script('widget',PLUGIN_PATH.'js/widgets.js');	
+	wp_register_script('widget',PLUGIN_PATH.'/js/widgets.js');	
 }
 add_action('init','css',100);
 add_action('init','js',100);
